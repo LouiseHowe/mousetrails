@@ -1,0 +1,15 @@
+package com.example.mousetrails;
+
+import net.fabricmc.api.ModInitializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class MouseTrailsMod implements ModInitializer {
+    public static final String MOD_ID = "mousetrails";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    @Override
+    public void onInitialize() {
+        LOGGER.info("Mouse Trails Mod initialized!");
+    }
+}

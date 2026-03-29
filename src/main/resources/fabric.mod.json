@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mousetrails",
+	"version": "${version}",
+
+	"name": "Mouse Trails Mod",
+	"description": "A mod that displays mouse trails in-game",
+	"authors": [
+		"Your Name"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+
+	"license": "CC0-1.0",
+	"icon": "assets/mousetrails/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.mousetrails.MouseTrailsMod"
+		],
+		"client": [
+			"com.example.mousetrails.MouseTrailsModClient"
+		]
+	},
+	"mixins": [
+	],
+
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
